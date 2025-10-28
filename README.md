@@ -20,9 +20,12 @@ The folder name is the command: `whatsmy gpu`
 
 ## Available Plugins
 
-| Plugin | Description | Source |
-|--------|-------------|--------|
-| *(coming soon)* | Be the first to contribute! | - |
+| Plugin | Description | Platforms | Source |
+|--------|-------------|-----------|--------|
+| **gpu** | GPU detection and information | Linux | [plugin-gpu](https://github.com/whatsmycli/plugin-gpu) |
+| **example** | Simple platform detection example | Linux | [plugin-template](https://github.com/whatsmycli/plugin-template) |
+
+**Note**: Windows and macOS binaries pending. Linux binaries are fully functional.
 
 ## Using Plugins
 
