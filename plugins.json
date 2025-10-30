@@ -26,16 +26,12 @@
       "version": "1.0.0",
       "author": "whatsmycli",
       "license": "GPLv3",
-      "platforms": ["linux", "windows", "macos"],
+      "platforms": ["linux"],
       "checksums": {
-        "linux": "sha256:placeholder",
-        "windows": "sha256:placeholder",
-        "macos": "sha256:placeholder"
+        "linux": "sha256:placeholder"
       },
       "size": {
-        "linux": 21504,
-        "windows": 0,
-        "macos": 0
+        "linux": 21504
       },
       "tags": ["example", "tutorial", "system"]
     }
