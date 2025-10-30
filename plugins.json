@@ -4,34 +4,21 @@
   "repository": "https://github.com/whatsmycli/plugins",
   "plugins": [
     {
-      "name": "gpu",
-      "description": "Display detailed GPU information including vendor, model, and driver version",
-      "version": "1.0.0",
-      "author": "whatsmycli",
-      "license": "GPLv3",
-      "platforms": ["linux", "windows"],
-      "checksums": {
-        "linux": "sha256:placeholder",
-        "windows": "sha256:placeholder"
-      },
-      "size": {
-        "linux": 43520,
-        "windows": 0
-      },
-      "tags": ["hardware", "graphics", "system"]
-    },
-    {
       "name": "example",
       "description": "Simple example plugin demonstrating platform detection and system information",
       "version": "1.0.0",
       "author": "whatsmycli",
       "license": "GPLv3",
-      "platforms": ["linux"],
+      "platforms": ["linux", "windows", "macos"],
       "checksums": {
-        "linux": "sha256:placeholder"
+        "linux": "sha256:placeholder",
+        "windows": "sha256:placeholder",
+        "macos": "sha256:placeholder"
       },
       "size": {
-        "linux": 21504
+        "linux": 21504,
+        "windows": 22000,
+        "macos": 23000
       },
       "tags": ["example", "tutorial", "system"]
     }
