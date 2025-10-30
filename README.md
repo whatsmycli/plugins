@@ -38,27 +38,7 @@ The folder name is the command: `whatsmy gpu`
 
 ## Contributing
 
-### Requirements
-- Binaries for all three platforms (Linux, Windows, macOS)
-- Link to public source repository
-- GPLv3-compatible license
-
-### Process
-1. Fork this repository
-2. Create folder: `plugins/yourplugin/`
-3. Add binaries: `linux.so`, `windows.dll`, `macos.dylib`
-4. Update this README table
-5. Open Pull Request with source link
-
-See [plugin-template](https://github.com/whatsmycli/plugin-template) for development guide.
-
-## Guidelines
-
-- **API**: Implement `plugin_run()` function
-- **Naming**: Lowercase folder names, no spaces
-- **Binaries**: Exact names: `linux.so`, `windows.dll`, `macos.dylib`
-- **Source**: Must be publicly available
-- **License**: GPLv3-compatible
+See [plugin-template](https://github.com/whatsmycli/plugin-template) for how to create plugins.
 
 ## License
 
