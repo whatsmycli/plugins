@@ -5,7 +5,16 @@ A simple example plugin demonstrating platform detection and basic plugin struct
 ## Usage
 
 ```bash
+# Basic usage
 whatsmy example
+
+# With arguments (greet someone)
+whatsmy example John
+# Output: "Hello to you too, John!"
+
+# Multiple arguments
+whatsmy example foo bar
+# Shows all arguments passed
 ```
 
 ## Example Output
