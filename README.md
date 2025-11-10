@@ -25,23 +25,6 @@ The folder name is the command: `whatsmy example`
 | **gpu** | GPU detection with vendor, driver, and PCI info | Linux, Windows, macOS | [plugin-gpu](https://github.com/whatsmycli/plugin-gpu) |
 | **example** | Simple platform detection example | Linux, Windows, macOS | [plugin-template](https://github.com/whatsmycli/plugin-template) |
 
-### GPU Plugin
-
-Displays detailed graphics card information:
-
-```bash
-whatsmy gpu              # Show active GPU
-whatsmy gpu all          # Show all GPUs
-whatsmy gpu 0            # Show specific GPU by index
-whatsmy gpu help         # Show help
-```
-
-**Features:**
-- Multi-GPU system support
-- Vendor detection (NVIDIA, AMD, Intel)
-- Driver version information
-- PCI device identification
-
 ## Using Plugins
 
 **Install plugins:**
