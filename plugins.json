@@ -1,45 +1,14 @@
 {
-  "version": "1.0",
-  "last_updated": "2025-11-10",
-  "repository": "https://github.com/whatsmycli/plugins",
   "plugins": [
     {
       "name": "example",
       "description": "Simple example plugin demonstrating platform detection and system information",
-      "version": "1.0.0",
-      "author": "whatsmycli",
-      "license": "GPLv3",
-      "platforms": ["linux", "windows", "macos"],
-      "checksums": {
-        "linux": "sha256:placeholder",
-        "windows": "sha256:placeholder",
-        "macos": "sha256:placeholder"
-      },
-      "size": {
-        "linux": 21504,
-        "windows": 22000,
-        "macos": 23000
-      },
-      "tags": ["example", "tutorial", "system"]
+      "author": "whatsmycli"
     },
     {
       "name": "gpu",
       "description": "Cross-platform GPU detection with vendor info, driver version, and PCI ID",
-      "version": "1.0.0",
-      "author": "whatsmycli",
-      "license": "GPLv3",
-      "platforms": ["linux", "windows", "macos"],
-      "checksums": {
-        "linux": "sha256:pending-github-actions",
-        "windows": "sha256:pending-github-actions",
-        "macos": "sha256:pending-github-actions"
-      },
-      "size": {
-        "linux": 143360,
-        "windows": 0,
-        "macos": 0
-      },
-      "tags": ["gpu", "hardware", "graphics", "system-info"]
+      "author": "whatsmycli"
     }
   ]
 }
