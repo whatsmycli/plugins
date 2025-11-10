@@ -24,11 +24,10 @@
     },
     {
       "name": "gpu",
-      "description": "Cross-platform GPU detection plugin showing graphics card information",
+      "description": "Cross-platform GPU detection with vendor info, driver version, and PCI ID",
       "version": "1.0.0",
       "author": "whatsmycli",
       "license": "GPLv3",
-      "repository": "https://github.com/whatsmycli/plugin-gpu",
       "platforms": ["linux", "windows", "macos"],
       "checksums": {
         "linux": "sha256:pending-github-actions",
@@ -40,20 +39,7 @@
         "windows": 0,
         "macos": 0
       },
-      "tags": ["gpu", "hardware", "graphics", "system-info"],
-      "features": [
-        "Displays active GPU information",
-        "Shows all GPUs in multi-GPU systems",
-        "Query specific GPU by index",
-        "Shows vendor, driver version, and PCI ID",
-        "Supports NVIDIA, AMD, and Intel GPUs"
-      ],
-      "usage": [
-        "whatsmy gpu",
-        "whatsmy gpu all",
-        "whatsmy gpu 0",
-        "whatsmy gpu help"
-      ]
+      "tags": ["gpu", "hardware", "graphics", "system-info"]
     }
   ]
 }
